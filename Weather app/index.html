@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <h1>Weather Dashboard</h1>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Check the Weather</h2>
+    <p>Enter a city to get the latest weather updates.</p>
+  </section>
+
+  <!-- Main Content -->
+  <main>
+    <section class="weather-container">
+      <form id="weather-form">
+        <input type="text" id="city-input" placeholder="Enter city name" required>
+        <button type="submit">Get Weather</button>
+      </form>
+      <div id="loading" class="hidden">Loading...</div>
+      <div id="error" class="hidden"></div>
+      <div id="weather-result" class="weather-card hidden">
+        <h3 id="city-name"></h3>
+        <img id="weather-icon" src="" alt="Weather icon">
+        <p id="temperature"></p>
+        <p id="description"></p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

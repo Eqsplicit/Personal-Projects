@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Geist", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(145deg, #F1F7FE 0%, #EEDFFD 100%);
+  
+}
+
+
+/* Font styles */
+
+.heading-1 {
+    font-size: 4rem;
+    font-weight: 500;
+}
+.heading-2 {
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+.heading-3 {
+    font-size: 2.25rem;
+    font-weight: 500;
+}
+.heading-4 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.heading-5 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.heading-6 {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.body-1 {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.body-2 {
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.body-3 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.body-4 {
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.col-grey-100 {
+    color: #A0A0A0;
+}
+
+
+
+.bg-sun{
+    background-color: #FEF1CF;
+}
+.bg-cloud{
+    background-color: #EEEDF1;
+}
+.bg-rain{
+    background-color: #D7F0FE;
+}
+
+/* Navbar */
+.nav-bar {
+display: flex;
+width: 1440px;
+padding: 24px 120px;
+justify-content: space-between;
+align-items: center;
+border-bottom: 1px solid transparent;
+border-image: linear-gradient(90deg, #2476FE 0%, #A334FF 100%) 1;
+/* gap: 24px; */
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Headline */
+.hero h1 {
+  margin-block: 98px 0.5rem;
+  background-image: linear-gradient(90deg, #2476FE 0%, #A334FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero p {
+color: #000;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 16px;
+
+}
+
+/* Search Field section */
+
+.search-field {
+display: flex;
+align-items: center;
+background: #fff;
+border-radius: 8px;
+padding: 5px 8px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+margin-top: 64px;
+width: 548px;
+margin-inline: auto;justify-content: space-between;
+}
+
+#search-input {
+border: none;
+outline: none;
+padding: 10px 14px;
+border-radius: 25px;
+font-size: 14px;
+width: 250px;
+padding: 10px 10px 10px 46px;
+}
+
+.input-container {
+  position: relative;
+}
+
+.search-field svg {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+  font-size: 14px;
+}
+
+.pri-btn {
+background: #000;
+color: #fff;
+border: none;
+padding: 10px 16px;
+border-radius: 8px;
+margin-left: 10px;
+font-size: 14px;
+cursor: pointer;
+transition: background 0.3s ease;
+}
+
+
+
+
+
+
+/* Recent Searched Cities */
+.cities {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 40px;
+padding-top: 84px;
+}
+
+
+.weather-details {
+  width: 248px;
+  height: 212px;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}

@@ -65,12 +65,61 @@ body {
     color: #A0A0A0;
 }
 
+.col-blue {
+    color: #2565F0;
+}
+
+
+.col-purple {
+    color: #8928D0;
+}
+
+
+.col-green {
+    color: #1F9C4E;
+}
+
+.col-aqua {
+    color: #108FB0;
+}
+
+.col-white {
+    color: #fff;
+}
+
+
+.bg-blue-100 {
+    background-color: #EFF6FF;
+}
+.bg-green-100 {
+    background-color: #DBFCE7;
+}
+.bg-purple-100 {
+    background-color: #F4E8FF;
+}
+.bg-aqua-100 {
+    background-color: #CEFAFD;
+}
+.bg-blue {
+    background-color: #155DFD;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+.bg-black {
+    background-color: #000000;
+}
+
+.bg-grey{
+    background-color: #F9FAFC;
+}
 
 
 .bg-sun{
     background-color: #FEF1CF;
 }
-.bg-cloud{
+.bg-cloud       {
     background-color: #EEEDF1;
 }
 .bg-rain{
@@ -122,7 +171,7 @@ margin-top: 16px;
 
 }
 
-/* Search Field section */
+/* ..........Search Field section ............*/
 
 .search-field {
 display: flex;
@@ -176,7 +225,8 @@ transition: background 0.3s ease;
 
 
 
-/* Recent Searched Cities */
+/* .........Recent Searched Cities.......... */
+
 .cities {
 display: flex;
 justify-content: center;
@@ -197,4 +247,106 @@ padding-top: 84px;
   justify-content: center;
   align-items: center;
   gap: 8px;
+}
+
+
+/* .................About Section.............. */
+.About {
+    width: 1440px;
+    height: 586px;
+    
+}
+
+.about-headline {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 86px;
+}
+
+.section-headline {
+    margin-top: 128px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.about-info {
+    margin-top: 58px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    height: 200px;
+    padding: 24px;
+    text-align: center;
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+    border-radius: 8px;
+}
+
+.info-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+/* ................Features Section........... */
+
+.featured {
+    height: 586px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.pill {
+    padding: 4px;
+    width: 146px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-block: 16px;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.icon-bg {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.insight-cards {
+    display: grid;
+    background-color: #108FB0;
 }
